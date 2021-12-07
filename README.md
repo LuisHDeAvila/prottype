@@ -1,3 +1,3 @@
 # prottype
-aplicacion Fullstack con nodejs
+Aplicación Fullstack con Nodejs
 backend, frontend y devops.
