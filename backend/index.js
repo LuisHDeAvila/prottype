@@ -1,3 +1,4 @@
 const express = require('express');
-const App = express();
-App.set('port', 3000);
+const app = express();
+app.listen(3000);
+console.log('server listen on port', 3000) 
