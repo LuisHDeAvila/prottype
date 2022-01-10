@@ -4,14 +4,16 @@
   "description": "Aplicación Fullstack con Nodejs backend, frontend y devops.",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node backend/index.js"
+    "start": "node build/index.js",
+    "build": "babel src --out-dir build",
+    "dev": "nodemon src/index.js --exec babel-node"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luishdeavila/prottype.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "eleache",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/luishdeavila/prottype/issues"
