@@ -8,5 +8,6 @@ export const createRoles = async () => {
         new Role({name: 'user'}).save(),
         new Role({name: 'moderator'}).save(),
         new Role({name: 'admin'}).save()
-    ])
+    ]) ,
+    
 }
