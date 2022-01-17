@@ -1,3 +1,3 @@
 # prottype
-Aplicación Fullstack con Nodejs
-backend, frontend y devops.
+Rest api con JWT.
+Pensado para ser un panel de administracion de microservicios. 
