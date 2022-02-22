@@ -1,6 +1,6 @@
-import {Schema, model} from 'mongoose'
+import {Schema, model} from "mongoose";
 
-new Schema({
+const userSchema = new Schema({
     username: {
         type: String,
         unique: true

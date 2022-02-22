@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+
 mongoose.connect("mongodb://")({
     useNewUrlParser: true,
     useUnifiedTopology: true,

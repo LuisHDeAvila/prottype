@@ -1,3 +1,3 @@
 export default {
-    SECRET: 'product'
+    SECRET: 'product-api'
 }
